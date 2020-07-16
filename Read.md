@@ -25,3 +25,21 @@ ou
 
 6. > git show <hash-do-commit>
     Com esse comando você poderá ver, a partir das hashs vistas no comando log, as modificações feitas naquele commit.
+
+7. > git diff <commit-1><commit-2>
+    Compara os dois commit e mostra as alterações feitas entre eles. Ao usar esse comando sem os parâmetros, ele mostra as modificações do último arquivo salvo.
+    > git diff --name-only
+    Mostra apenas o nome dos arquivos modificados.
+
+8. > git checkout <nome-do-arquivo.extensão>
+    Desfaz alterações feitas no arquivo ainda que está
+
+9. > git reset
+    Esse comando possui três modos:
+    > git reset --soft <hash-do-commit-anterior-ao-que-quer-ser-resetado>
+        Esse parâmetro reseta o arquivo no ponto antes de ser commitado.
+    > git reset --mixed <hash-do-commit-anterior-ao-que-quer-ser-resetado>
+        Esse parâmetro reseta o arquivo no ponto antes de ser adicionado no estágio _staged_.
+    > git reset --hard <hash-do-commit-anterior-ao-que-quer-ser-resetado>
+        Esse parâmetro é o mais bruto, já que apaga por completo o commit.
+    Esse comando deve ser usado com bastante cuidado, visto que ele altera o histórico do repositório.
