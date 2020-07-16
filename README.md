@@ -16,8 +16,7 @@ Aprendendo a usar o git e o github.
     Esse comando salva os arquivos em seu repositório local junto com uma mensagem de commit. É importante, sempre colocar uma mensagem pertinente as modificações que você fez a fim de entendimento posterior de terceiros e até mesmo o seu.  
 
 5. `git log`  
-    Usado para mostrar o histórico de alterações dos arquivos do repositório, informando: O hash do commit, o autor, a data de modificação e a mensagem do commit.  
-    Outro jeito de ver o histórico seria com:  
+    Usado para mostrar o histórico de alterações dos arquivos do repositório, informando: O hash do commit, o autor, a data de modificação e a mensagem do commit.Outro jeito de ver o histórico seria com:  
     `git shortlog`  
     Onde este, mostra os autores, quantos commits fizeram e quais foram esses commits.  
 
